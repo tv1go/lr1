@@ -1,0 +1,60 @@
+<mxfile host="app.diagrams.net" modified="2023-11-13T11:49:25.939Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.837 YaBrowser/23.9.4.837 Yowser/2.5 Safari/537.36" etag="wplLw2BL5pz8b4shuNB6" version="22.1.0" type="device">
+  <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
+    <mxGraphModel dx="675" dy="1886" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5d2195bd80daf111-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;labelBackgroundColor=none;startFill=0;endArrow=open;endFill=0;endSize=10;fontFamily=Verdana;fontSize=10;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="948" as="sourcePoint" />
+            <mxPoint x="730" y="978" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5d2195bd80daf111-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;labelBackgroundColor=none;startFill=0;endArrow=open;endFill=0;endSize=10;fontFamily=Verdana;fontSize=10;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="545" y="970" />
+              <mxPoint x="545" y="970" />
+            </Array>
+            <mxPoint x="545" y="963" as="sourcePoint" />
+            <mxPoint x="545" y="1004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5d2195bd80daf111-10" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&lt;b&gt;Заказ&lt;/b&gt;&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ order_id: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ order_date: date&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ status: str&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ total_amount: decimal&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ shipping_address: str&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ products: list&amp;lt;Product&amp;gt;&amp;nbsp;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ add_Product(product: Product): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ remove_Product(product: Product): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ confirm_order(): void&amp;nbsp;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
+          <mxGeometry x="270" y="-20" width="250" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="5d2195bd80daf111-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;labelBackgroundColor=none;startFill=0;endArrow=open;endFill=0;endSize=10;fontFamily=Verdana;fontSize=10;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="1029" />
+              <mxPoint x="410" y="1029" />
+            </Array>
+            <mxPoint x="380" y="1029" as="sourcePoint" />
+            <mxPoint x="490" y="1029" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N58w-4-5G22wbErNdj45-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="5d2195bd80daf111-15" target="5d2195bd80daf111-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5d2195bd80daf111-15" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&lt;b&gt;Корзина&lt;/b&gt;&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ items: list&amp;lt;Product&amp;gt;&amp;nbsp; &amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ created_date: date&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ updated_date: date&amp;nbsp; &amp;nbsp;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;add_Product(product: Product)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;remove_Product(product: Product): void&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;clear_Cart(): void&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;get_Total_Amount(): decimal&amp;nbsp;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
+          <mxGeometry x="115" y="453" width="230" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="N58w-4-5G22wbErNdj45-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5d2195bd80daf111-18" target="5d2195bd80daf111-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N58w-4-5G22wbErNdj45-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5d2195bd80daf111-18" target="5d2195bd80daf111-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5d2195bd80daf111-18" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&lt;b&gt;Покупатель&lt;/b&gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ id: int&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ name: str&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ address: str&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ shopping_cart: shopping_cart&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ add_to_cart(product: Product): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ place_Order(): Order&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
+          <mxGeometry x="125" y="230" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5d2195bd80daf111-19" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Товар&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ id: int&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ name: str&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ price: decimal&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ availability: int&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ description: str&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ category: str&amp;nbsp;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ change_price(): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
+          <mxGeometry x="600" y="170" width="210" height="153" as="geometry" />
+        </mxCell>
+        <mxCell id="N58w-4-5G22wbErNdj45-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.008;entryY=0.379;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="5d2195bd80daf111-19" target="5d2195bd80daf111-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
